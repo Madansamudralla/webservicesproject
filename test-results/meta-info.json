@@ -1,0 +1,199 @@
+{
+  "reports": [
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/25_Apr_2018_10_12_AM/json",
+      "startTime": 1524651184139
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/25_Apr_2018_09_53_AM/json",
+      "startTime": 1524649996221
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/23_Apr_2018_11_48_AM/json",
+      "startTime": 1524484127332
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_05_05_PM/json",
+      "startTime": 1524483304327
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_56_PM/json",
+      "startTime": 1524479180172
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_46_PM/json",
+      "startTime": 1524478601690
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_44_PM/json",
+      "startTime": 1524478452563
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/23_Apr_2018_10_12_AM/json",
+      "startTime": 1524478374449
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/23_Apr_2018_10_10_AM/json",
+      "startTime": 1524478216891
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_39_PM/json",
+      "startTime": 1524478151219
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_37_PM/json",
+      "startTime": 1524478040427
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_34_PM/json",
+      "startTime": 1524477876439
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_30_PM/json",
+      "startTime": 1524477612830
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_15_PM/json",
+      "startTime": 1524476745791
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_03_08_PM/json",
+      "startTime": 1524476285909
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_02_50_PM/json",
+      "startTime": 1524475211992
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_02_49_PM/json",
+      "startTime": 1524475172639
+    },
+    {
+      "name": "webServicesProject.scenarios.suite2.bdd",
+      "dir": "test-results/23_Apr_2018_02_45_PM/json",
+      "startTime": 1524474937934
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/23_Apr_2018_05_26_AM/json",
+      "startTime": 1524471279210
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/23_Apr_2018_05_26_AM/json",
+      "startTime": 1524468339813
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/23_Apr_2018_05_26_AM/json",
+      "startTime": 1524461208845
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524232019868
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524229169820
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524228582024
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524228418911
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524228407884
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524228379247
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524228340404
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524228176981
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524225825142
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524225537830
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524223864156
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524223745803
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524223596602
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524223236812
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524223024457
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524222882144
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524222757255
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/20_Apr_2018_04_34_AM/json",
+      "startTime": 1524198901208
+    }
+  ]
+}

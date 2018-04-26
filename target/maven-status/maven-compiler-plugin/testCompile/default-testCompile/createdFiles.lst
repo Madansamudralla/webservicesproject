@@ -1,0 +1,10 @@
+com\bean\AddressBean.class
+com\bean\UserBean.class
+com\webservicesproject\Userbean.class
+com\steps\CookieEnabledClient.class
+com\webservicesproject\SessionManagementFilter.class
+com\webservicesproject\WsregisterUser.class
+com\webservicesproject\CookiesEnabledclient.class
+com\bean\PaymentBean.class
+com\steps\SessionManagementFilter.class
+com\steps\StepsBackLog.class

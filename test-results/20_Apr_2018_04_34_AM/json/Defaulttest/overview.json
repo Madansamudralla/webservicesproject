@@ -1,0 +1,35 @@
+{
+  "total": 1,
+  "pass": 1,
+  "fail": 0,
+  "skip": 0,
+  "classes": [
+    "com.webservicesproject.My",
+    "com.webservicesproject.WsregisterUser"
+  ],
+  "envInfo": {
+    "browser-actual-capabilities": {},
+    "isfw-build-info": {
+      "qaf-Type": "core",
+      "qaf-Revision": "12-RC3",
+      "qaf-Version": "2.1",
+      "qaf-Build-Time": "06-Aug-2017 11:49:43"
+    },
+    "run-parameters": {
+      "baseurl": "http://10.12.40.220",
+      "resources": "resources"
+    },
+    "execution-env-info": {
+      "java.arch": "64",
+      "java.vendor": "Oracle Corporation",
+      "java.version": "1.8.0_161",
+      "os.arch": "amd64",
+      "host": "ICPL12782",
+      "os.name": "Windows 10",
+      "user.name": "Madan.Samudralla",
+      "os.version": "10.0"
+    }
+  },
+  "startTime": 1524198901860,
+  "endTime": 1524232020663
+}

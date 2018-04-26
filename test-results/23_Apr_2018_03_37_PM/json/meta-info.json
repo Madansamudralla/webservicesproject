@@ -1,0 +1,13 @@
+{
+  "name": "webServicesProject.scenarios.suite2.bdd",
+  "status": "pass",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 2,
+  "pass": 2,
+  "fail": 0,
+  "skip": 0,
+  "startTime": 1524478040427,
+  "endTime": 1524478042613
+}

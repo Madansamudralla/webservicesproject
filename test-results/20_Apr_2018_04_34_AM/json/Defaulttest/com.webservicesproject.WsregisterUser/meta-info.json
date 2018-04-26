@@ -1,0 +1,275 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524222757369,
+      "duration": 449,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruservgVfmNwIfc",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524222882234,
+      "duration": 610,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registerusergrUvksqoMD",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524223024555,
+      "duration": 451,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserLqwunuPxDJ",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524223236898,
+      "duration": 564,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserXfGaqtMUrH",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524223596700,
+      "duration": 1529,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserqLKppSPBfI",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524223745939,
+      "duration": 534,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserlSRqShPmvW",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524223864254,
+      "duration": 454,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserPcmChpRzRk",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524225537925,
+      "duration": 469,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruservcvCMoSxkx",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524225825245,
+      "duration": 573,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserMqOTApqxMN",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524228177088,
+      "duration": 559,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserHKcSOADrks",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524228340550,
+      "duration": 586,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserqDiftVwtJr",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524228379360,
+      "duration": 600,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserwQTQNpQKvQ",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524228408003,
+      "duration": 597,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserOkCSVZBIfG",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524228419025,
+      "duration": 630,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserbrXLQtZzkE",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524228582153,
+      "duration": 506,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserwhGTEYkQeL",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524229169917,
+      "duration": 527,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserLPfXWskEtO",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524232019959,
+      "duration": 655,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

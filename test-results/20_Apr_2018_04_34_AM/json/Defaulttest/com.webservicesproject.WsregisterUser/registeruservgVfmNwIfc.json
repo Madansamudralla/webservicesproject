@@ -1,0 +1,34 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "POST:http://10.12.40.220/register",
+      "args": [
+        "/register",
+        null
+      ],
+      "result": "POST http://10.12.40.220/register returned a response status of 500 Internal Server Error",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST http://10.12.40.220/register\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n500\nEtag: W/\"46-sLPzVo5PhDd2vj7iteBnTSCofbc\"\nSet-Cookie: md.sid=s%3ASZQCB1Yo2UEnIWRsg375IRiAL-NVZ5bf.3uRQ9Le9cnc5ZtuqqK81t1Q5Qxk1FjEs3nMI%2F%2B%2FO0do; Path=/; HttpOnly\nSet-Cookie: _TRAEFIK_BACKEND=http://front-end:8079\nContent-Length: 70\nDate: Fri, 20 Apr 2018 11:14:37 GMT\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\"message\":\"Cannot read property 'logged_in' of undefined\",\"error\":{}}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "POST http://10.12.40.220/register returned a response status of 500 Internal Server Error",
+      "type": "Fail",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "com.sun.jersey.api.client.UniformInterfaceException: POST http://10.12.40.220/register returned a response status of 500 Internal Server Error\r\n\tat com.sun.jersey.api.client.WebResource.voidHandle(WebResource.java:709)\r\n\tat com.sun.jersey.api.client.WebResource.access$400(WebResource.java:74)\r\n\tat com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:555)\r\n\tat com.webservicesproject.WsregisterUser.registeruser(WsregisterUser.java:13)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

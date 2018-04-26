@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-webServicesProject.scenarios.suite2.bdd">
+              <span class="suite-name border-passed">webServicesProject.scenarios.suite2.bdd</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-webServicesProject.scenarios.suite2.bdd">
+                    <span>C:\Users\madan.samudralla\AppData\Local\Temp\testng-eclipse-95528092\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-webServicesProject.scenarios.suite2.bdd">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-webServicesProject.scenarios.suite2.bdd">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-webServicesProject.scenarios.suite2.bdd">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-webServicesProject.scenarios.suite2.bdd">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-webServicesProject.scenarios.suite2.bdd">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-webServicesProject.scenarios.suite2.bdd">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-webServicesProject.scenarios.suite2.bdd" class="hide-methods passed suite-webServicesProject.scenarios.suite2.bdd"> (hide)</a> <!-- hide-methods passed suite-webServicesProject.scenarios.suite2.bdd -->
+                      <a href="#" panel-name="suite-webServicesProject.scenarios.suite2.bdd" class="show-methods passed suite-webServicesProject.scenarios.suite2.bdd"> (show)</a> <!-- show-methods passed suite-webServicesProject.scenarios.suite2.bdd -->
+                    </span>
+                    <div class="method-list-content passed suite-webServicesProject.scenarios.suite2.bdd">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-webServicesProject.scenarios.suite2.bdd" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="CreateUserAndOrder">CreateUserAndOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-webServicesProject.scenarios.suite2.bdd" title="com.qmetry.qaf.automation.step.client.Scenario" hash-for-method="UpdateCartDetails">UpdateCartDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-webServicesProject.scenarios.suite2.bdd -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-webServicesProject.scenarios.suite2.bdd" class="panel webServicesProject.scenarios.suite2.bdd">
+          <div class="suite-webServicesProject.scenarios.suite2.bdd-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qmetry.qaf.automation.step.client.Scenario</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CreateUserAndOrder">
+                  </a> <!-- CreateUserAndOrder -->
+                  <span class="method-name">CreateUserAndOrder</span>
+                  <em>
+(Create New user and Place Order using the same)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UpdateCartDetails">
+                  </a> <!-- UpdateCartDetails -->
+                  <span class="method-name">UpdateCartDetails</span>
+                  <em>
+(Update Items in cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-webServicesProject.scenarios.suite2.bdd-class-passed -->
+        </div> <!-- panel webServicesProject.scenarios.suite2.bdd -->
+        <div panel-name="test-xml-webServicesProject.scenarios.suite2.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\madan.samudralla\AppData\Local\Temp\testng-eclipse-95528092\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;webServicesProject.scenarios.suite2.bdd&quot;&gt;
+  &lt;parameter name=&quot;scenario.file.loc&quot; value=&quot;scenarios/suite2.bdd&quot;/&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;BDD Test&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;selector-class name=&quot;com.qmetry.qaf.automation.testng.pro.QAFMethodSelector&quot; priority=&quot;1&quot;/&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qmetry.qaf.automation.step.client.text.BDDTestFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BDD Test --&gt;
+&lt;/suite&gt; &lt;!-- webServicesProject.scenarios.suite2.bdd --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-webServicesProject.scenarios.suite2.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for webServicesProject.scenarios.suite2.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BDD Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-webServicesProject.scenarios.suite2.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for webServicesProject.scenarios.suite2.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">SMOKE</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CreateUserAndOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">UpdateCartDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-webServicesProject.scenarios.suite2.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for webServicesProject.scenarios.suite2.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_webServicesProject.scenarios.suite2.bdd');
+function tableData_webServicesProject.scenarios.suite2.bdd() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UpdateCartDetails')
+data.setCell(0, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(0, 3, 2041);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CreateUserAndOrder')
+data.setCell(1, 2, 'com.qmetry.qaf.automation.step.client.Scenario')
+data.setCell(1, 3, 854);
+window.suiteTableData['webServicesProject.scenarios.suite2.bdd']= { tableData: data, tableDiv: 'times-div-webServicesProject.scenarios.suite2.bdd'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-webServicesProject.scenarios.suite2.bdd">
+              </div> <!-- times-div-webServicesProject.scenarios.suite2.bdd -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-webServicesProject.scenarios.suite2.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for webServicesProject.scenarios.suite2.bdd</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">UpdateCartDetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user creates a new user</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Create User:
+Expected: a value greater than &lt;10&gt;
+     Actual: &lt;24&gt; was greater than &lt;10&gt;</div><div  class="info"><span class="info-label">I </span>user id for create user:5addc4e4ee11cb00014b26a2</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Add to cart status:
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c1117d","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":1,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Update cart status:
+Expected: &lt;202&gt;
+     Actual: was &lt;202&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c1117d","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":5,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Delete Product status code:
+Expected: &lt;202&gt;
+     Actual: was &lt;202&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">CreateUserAndOrder</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user creates a new user</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Create User:
+Expected: a value greater than &lt;10&gt;
+     Actual: &lt;24&gt; was greater than &lt;10&gt;</div><div  class="info"><span class="info-label">I </span>user id for create user:5addc4e5ee11cb00014b26a3</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user add Product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Add to cart status:
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c11181","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":1,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user adds new shipping address 'Hyd' 'India' '545676' '899999' 'Address lbnagar'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then address is added successfully</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Address id:5addc4e5ee11cb00014b26a4</div><div  class="pass"><span class="pass-label">P </span>Adding address status code
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user adds new payment details '5544154011345918' '08/19' '958'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Address id:5addc4e6ee11cb00014b26a5</div><div  class="pass"><span class="pass-label">P </span>Adding card status code
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user places the order</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Adding card status code
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verifies the placed order</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Order created id:5addc4e68b87bc000705e63f</div><div  class="pass"><span class="pass-label">P </span>Order placement status code
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div></div></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-webServicesProject.scenarios.suite2.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-webServicesProject.scenarios.suite2.bdd" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.Scenario</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupSuit(org.testng.TestRunner@60d8c9b7)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest(org.testng.TestRunner@60d8c9b7)</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@60d8c9b7)</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@60d8c9b...)</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">UpdateCartDetails</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@60d8c9b7, [TestResult name=UpdateCartDetails status=SUCCESS method=scenarios.s...)</span>
+                <span class="method-start">2147 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@60d8c9b7)</span>
+                <span class="method-start">2148 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(org.testng.TestRunner@60d8c9b7)</span>
+                <span class="method-start">2151 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.Scenario.scenario(), org.testng.TestRunner@60d8c9b...)</span>
+                <span class="method-start">2151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CreateUserAndOrder</span>
+                <span class="method-start">2152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(org.testng.TestRunner@60d8c9b7, [TestResult name=CreateUserAndOrder status=SUCCESS method=scenarios....)</span>
+                <span class="method-start">3026 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass(org.testng.TestRunner@60d8c9b7)</span>
+                <span class="method-start">3028 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest(org.testng.TestRunner@60d8c9b7)</span>
+                <span class="method-start">3028 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuit(org.testng.TestRunner@60d8c9b7)</span>
+                <span class="method-start">3099 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

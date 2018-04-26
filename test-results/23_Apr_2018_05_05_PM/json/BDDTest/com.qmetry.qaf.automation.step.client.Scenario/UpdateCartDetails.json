@@ -1,0 +1,353 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "createUser",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "POST:http://10.12.40.220/register",
+          "args": [
+            "/register",
+            null
+          ],
+          "result": "POST http://10.12.40.220/register returned a response status of 200 OK",
+          "subLogs": [
+            {
+              "args": [
+                "Client out-bound request\nPOST http://10.12.40.220/register\nContent-Type: application/json\n"
+              ],
+              "result": "Client in-bound response\n200\nEtag: W/\"21-4hRu5tknq8vhnABxSI6r7EqSMSk\"\nSet-Cookie: md.sid=s%3AHVlxd5f-AGCKIjwH5dWHenoFyrtg212V.Ij3U7pWLEWubh3S9MHndS7pAYHTBwfdADmKofpdwz0g; Path=/; HttpOnly\nSet-Cookie: logged_in=HVlxd5f-AGCKIjwH5dWHenoFyrtg212V; Max-Age=3600; Path=/; Expires=Mon, 23 Apr 2018 12:35:00 GMT\nSet-Cookie: _TRAEFIK_BACKEND=http://front-end:8079\nContent-Length: 33\nDate: Mon, 23 Apr 2018 11:35:00 GMT\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\"id\":\"5addc4e4ee11cb00014b26a2\"}\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "addProductToCart",
+      "args": [
+        "[510a0d7e-8e83-4193-b483-e27e09ddc34d]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "POST:http://10.12.40.220/cart",
+          "args": [
+            "/cart",
+            null
+          ],
+          "result": "POST http://10.12.40.220/cart returned a response status of 201 Created",
+          "subLogs": [
+            {
+              "args": [
+                "Client out-bound request\nPOST http://10.12.40.220/cart\nContent-Type: application/json\n"
+              ],
+              "result": "Client in-bound response\n201\nContent-Length: 0\nDate: Mon, 23 Apr 2018 11:35:01 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyCart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "GET:http://10.12.40.220/cart",
+          "args": [
+            "/cart",
+            null
+          ],
+          "result": "GET http://10.12.40.220/cart returned a response status of 200 OK",
+          "subLogs": [
+            {
+              "args": [
+                "Client out-bound request\nGET http://10.12.40.220/cart\nContent-Type: application/json\n"
+              ],
+              "result": "Client in-bound response\n200\nContent-Length: 113\nDate: Mon, 23 Apr 2018 11:35:01 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n[{\"id\":\"5addc4e59194be0006c1117d\",\"itemId\":\"510a0d7e-8e83-4193-b483-e27e09ddc34d\",\"quantity\":1,\"unitPrice\":15.0}]\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "updateCart",
+      "args": [
+        "[5, 510a0d7e-8e83-4193-b483-e27e09ddc34d]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "POST:http://10.12.40.220/cart/update",
+          "args": [
+            "/cart/update",
+            null
+          ],
+          "result": "POST http://10.12.40.220/cart/update returned a response status of 202 Accepted",
+          "subLogs": [
+            {
+              "args": [
+                "Client out-bound request\nPOST http://10.12.40.220/cart/update\nContent-Type: application/json\n"
+              ],
+              "result": "Client in-bound response\n202\nContent-Length: 0\nDate: Mon, 23 Apr 2018 11:35:01 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyCart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "GET:http://10.12.40.220/cart",
+          "args": [
+            "/cart",
+            null
+          ],
+          "result": "GET http://10.12.40.220/cart returned a response status of 200 OK",
+          "subLogs": [
+            {
+              "args": [
+                "Client out-bound request\nGET http://10.12.40.220/cart\nContent-Type: application/json\n"
+              ],
+              "result": "Client in-bound response\n200\nContent-Length: 113\nDate: Mon, 23 Apr 2018 11:35:01 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n[{\"id\":\"5addc4e59194be0006c1117d\",\"itemId\":\"510a0d7e-8e83-4193-b483-e27e09ddc34d\",\"quantity\":5,\"unitPrice\":15.0}]\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "deleteProduct",
+      "args": [
+        "[510a0d7e-8e83-4193-b483-e27e09ddc34d]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "DELETE:http://10.12.40.220/cart",
+          "args": [
+            "/cart",
+            null
+          ],
+          "result": "DELETE http://10.12.40.220/cart returned a response status of 202 Accepted",
+          "subLogs": [
+            {
+              "args": [
+                "Client out-bound request\nDELETE http://10.12.40.220/cart\nContent-Type: application/json\n"
+              ],
+              "result": "Client in-bound response\n202\nContent-Length: 0\nDate: Mon, 23 Apr 2018 11:35:01 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifyCart",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "GET:http://10.12.40.220/cart",
+          "args": [
+            "/cart",
+            null
+          ],
+          "result": "GET http://10.12.40.220/cart returned a response status of 200 OK",
+          "subLogs": [
+            {
+              "args": [
+                "Client out-bound request\nGET http://10.12.40.220/cart\nContent-Type: application/json\n"
+              ],
+              "result": "Client in-bound response\n200\nContent-Length: 2\nDate: Mon, 23 Apr 2018 11:35:01 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n[]\n",
+              "subLogs": [],
+              "duration": -1
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user creates a new user",
+      "type": "TestStepPass",
+      "duration": 1362,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Create User:\nExpected: a value greater than &lt;10&gt;\n     Actual: &lt;24&gt; was greater than &lt;10&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "user id for create user:5addc4e4ee11cb00014b26a2",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "type": "TestStepPass",
+      "duration": 72,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Add to cart status:\nExpected: &lt;201&gt;\n     Actual: was &lt;201&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user verify cart",
+      "type": "TestStepPass",
+      "duration": 46,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Response for verify cart:[{\"id\":\"5addc4e59194be0006c1117d\",\"itemId\":\"510a0d7e-8e83-4193-b483-e27e09ddc34d\",\"quantity\":1,\"unitPrice\":15.0}]",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Verify cart status:\nExpected: &lt;200&gt;\n     Actual: was &lt;200&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "type": "TestStepPass",
+      "duration": 59,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Update cart status:\nExpected: &lt;202&gt;\n     Actual: was &lt;202&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then user verify cart",
+      "type": "TestStepPass",
+      "duration": 57,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Response for verify cart:[{\"id\":\"5addc4e59194be0006c1117d\",\"itemId\":\"510a0d7e-8e83-4193-b483-e27e09ddc34d\",\"quantity\":5,\"unitPrice\":15.0}]",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Verify cart status:\nExpected: &lt;200&gt;\n     Actual: was &lt;200&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "type": "TestStepPass",
+      "duration": 50,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Delete Product status code:\nExpected: &lt;202&gt;\n     Actual: was &lt;202&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user verify cart",
+      "type": "TestStepPass",
+      "duration": 55,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Response for verify cart:[]",
+          "type": "Info",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "Verify cart status:\nExpected: &lt;200&gt;\n     Actual: was &lt;200&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

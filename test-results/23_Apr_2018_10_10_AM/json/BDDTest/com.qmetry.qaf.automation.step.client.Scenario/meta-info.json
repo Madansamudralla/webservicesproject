@@ -1,0 +1,44 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Update Items in cart",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 1.0,
+        "name": "UpdateCartDetails",
+        "referece": "scenarios/suite2.bdd",
+        "sign": "scenarios.suite2.bdd.UpdateCartDetails()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1524478216961,
+      "duration": 1118,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "Create New user and Place Order using the same",
+        "groups": [
+          "SMOKE"
+        ],
+        "lineNo": 13,
+        "name": "CreateUserAndOrder",
+        "referece": "scenarios/suite2.bdd",
+        "sign": "scenarios.suite2.bdd.CreateUserAndOrder()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]"
+      },
+      "dependsOn": [],
+      "startTime": 1524478218107,
+      "duration": 1474,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

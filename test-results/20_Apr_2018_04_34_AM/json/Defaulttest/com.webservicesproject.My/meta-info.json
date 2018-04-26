@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "test",
+        "sign": "My.test()[pri:0, instance:com.webservicesproject.My@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524198901335,
+      "duration": 492,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}

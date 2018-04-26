@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user creates a new user</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Create User:
+Expected: a value greater than &lt;10&gt;
+     Actual: &lt;24&gt; was greater than &lt;10&gt;</div><div  class="info"><span class="info-label">I </span>user id for create user:5addc4e4ee11cb00014b26a2</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Add to cart status:
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c1117d","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":1,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Update cart status:
+Expected: &lt;202&gt;
+     Actual: was &lt;202&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c1117d","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":5,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Delete Product status code:
+Expected: &lt;202&gt;
+     Actual: was &lt;202&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user creates a new user</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Create User:
+Expected: a value greater than &lt;10&gt;
+     Actual: &lt;24&gt; was greater than &lt;10&gt;</div><div  class="info"><span class="info-label">I </span>user id for create user:5addc4e5ee11cb00014b26a3</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user add Product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Add to cart status:
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c11181","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":1,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user adds new shipping address 'Hyd' 'India' '545676' '899999' 'Address lbnagar'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then address is added successfully</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Address id:5addc4e5ee11cb00014b26a4</div><div  class="pass"><span class="pass-label">P </span>Adding address status code
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user adds new payment details '5544154011345918' '08/19' '958'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Address id:5addc4e6ee11cb00014b26a5</div><div  class="pass"><span class="pass-label">P </span>Adding card status code
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user places the order</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Adding card status code
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verifies the placed order</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Order created id:5addc4e68b87bc000705e63f</div><div  class="pass"><span class="pass-label">P </span>Order placement status code
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="webServicesProject.scenarios.suite2.bdd" duration-ms="2981" started-at="2018-04-23T11:35:04Z" finished-at="2018-04-23T11:35:07Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.suite2.bdd.CreateUserAndOrder()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" name="CreateUserAndOrder" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+        <method signature="scenarios.suite2.bdd.UpdateCartDetails()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="UpdateCartDetails" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="2981" started-at="2018-04-23T11:35:04Z" finished-at="2018-04-23T11:35:07Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="UpdateCartDetails" name="setupSuit" is-config="true" duration-ms="49" started-at="2018-04-23T17:05:04Z" finished-at="2018-04-23T17:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="UpdateCartDetails" name="setupTest" is-config="true" duration-ms="3" started-at="2018-04-23T17:05:04Z" finished-at="2018-04-23T17:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="UpdateCartDetails" name="setup" is-config="true" duration-ms="1" started-at="2018-04-23T17:05:04Z" finished-at="2018-04-23T17:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="UpdateCartDetails" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-04-23T17:05:04Z" finished-at="2018-04-23T17:05:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="UpdateCartDetails()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="UpdateCartDetails" name="UpdateCartDetails" duration-ms="2041" started-at="2018-04-23T17:05:04Z" description="Update Items in cart" finished-at="2018-04-23T17:05:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user creates a new user</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Create User:
+Expected: a value greater than &lt;10&gt;
+     Actual: &lt;24&gt; was greater than &lt;10&gt;</div><div  class="info"><span class="info-label">I </span>user id for create user:5addc4e4ee11cb00014b26a2</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Add to cart status:
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c1117d","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":1,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Update cart status:
+Expected: &lt;202&gt;
+     Actual: was &lt;202&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c1117d","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":5,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Delete Product status code:
+Expected: &lt;202&gt;
+     Actual: was &lt;202&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UpdateCartDetails -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="UpdateCartDetails" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-23T17:05:06Z" finished-at="2018-04-23T17:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=UpdateCartDetails status=SUCCESS method=scenarios.suite2.bdd.UpdateCartDetails()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user creates a new user</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Create User:
+Expected: a value greater than &lt;10&gt;
+     Actual: &lt;24&gt; was greater than &lt;10&gt;</div><div  class="info"><span class="info-label">I </span>user id for create user:5addc4e4ee11cb00014b26a2</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Add to cart status:
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c1117d","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":1,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Update cart status:
+Expected: &lt;202&gt;
+     Actual: was &lt;202&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c1117d","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":5,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Delete Product status code:
+Expected: &lt;202&gt;
+     Actual: was &lt;202&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="UpdateCartDetails" name="afterClass" is-config="true" duration-ms="1" started-at="2018-04-23T17:05:06Z" finished-at="2018-04-23T17:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="CreateUserAndOrder" name="setup" is-config="true" duration-ms="0" started-at="2018-04-23T17:05:06Z" finished-at="2018-04-23T17:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="CreateUserAndOrder" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-04-23T17:05:06Z" finished-at="2018-04-23T17:05:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="CreateUserAndOrder()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="CreateUserAndOrder" name="CreateUserAndOrder" duration-ms="854" started-at="2018-04-23T17:05:06Z" description="Create New user and Place Order using the same" finished-at="2018-04-23T17:05:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user creates a new user</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Create User:
+Expected: a value greater than &lt;10&gt;
+     Actual: &lt;24&gt; was greater than &lt;10&gt;</div><div  class="info"><span class="info-label">I </span>user id for create user:5addc4e5ee11cb00014b26a3</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user add Product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Add to cart status:
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c11181","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":1,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user adds new shipping address 'Hyd' 'India' '545676' '899999' 'Address lbnagar'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then address is added successfully</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Address id:5addc4e5ee11cb00014b26a4</div><div  class="pass"><span class="pass-label">P </span>Adding address status code
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user adds new payment details '5544154011345918' '08/19' '958'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Address id:5addc4e6ee11cb00014b26a5</div><div  class="pass"><span class="pass-label">P </span>Adding card status code
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user places the order</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Adding card status code
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verifies the placed order</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Order created id:5addc4e68b87bc000705e63f</div><div  class="pass"><span class="pass-label">P </span>Order placement status code
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CreateUserAndOrder -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="CreateUserAndOrder" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-23T17:05:07Z" finished-at="2018-04-23T17:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=CreateUserAndOrder status=SUCCESS method=scenarios.suite2.bdd.CreateUserAndOrder()[pri:1001, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9] output=<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given user creates a new user</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Create User:
+Expected: a value greater than &lt;10&gt;
+     Actual: &lt;24&gt; was greater than &lt;10&gt;</div><div  class="info"><span class="info-label">I </span>user id for create user:5addc4e5ee11cb00014b26a3</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user add Product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Add to cart status:
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user verify cart</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Response for verify cart:[{"id":"5addc4e59194be0006c11181","itemId":"510a0d7e-8e83-4193-b483-e27e09ddc34d","quantity":1,"unitPrice":15.0}]</div><div  class="pass"><span class="pass-label">P </span>Verify cart status:
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user adds new shipping address 'Hyd' 'India' '545676' '899999' 'Address lbnagar'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then address is added successfully</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Address id:5addc4e5ee11cb00014b26a4</div><div  class="pass"><span class="pass-label">P </span>Adding address status code
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And user adds new payment details '5544154011345918' '08/19' '958'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Address id:5addc4e6ee11cb00014b26a5</div><div  class="pass"><span class="pass-label">P </span>Adding card status code
+Expected: &lt;200&gt;
+     Actual: was &lt;200&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>When user places the order</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>Adding card status code
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then verifies the placed order</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Order created id:5addc4e68b87bc000705e63f</div><div  class="pass"><span class="pass-label">P </span>Order placement status code
+Expected: &lt;201&gt;
+     Actual: was &lt;201&gt;</div></div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="CreateUserAndOrder" name="afterClass" is-config="true" duration-ms="0" started-at="2018-04-23T17:05:07Z" finished-at="2018-04-23T17:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="UpdateCartDetails" name="afterTest" is-config="true" duration-ms="2" started-at="2018-04-23T17:05:07Z" finished-at="2018-04-23T17:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e9]" test-instance-name="UpdateCartDetails" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-04-23T17:05:07Z" finished-at="2018-04-23T17:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60d8c9b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- webServicesProject.scenarios.suite2.bdd -->
+</testng-results>

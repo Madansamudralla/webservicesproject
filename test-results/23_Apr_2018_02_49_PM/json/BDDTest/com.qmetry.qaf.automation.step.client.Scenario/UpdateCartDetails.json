@@ -1,0 +1,127 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "createUser",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "args": [
+        "[510a0d7e-8e83-4193-b483-e27e09ddc34d]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user verify cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "args": [
+        "[5, 510a0d7e-8e83-4193-b483-e27e09ddc34d]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then user verify cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "args": [
+        "[510a0d7e-8e83-4193-b483-e27e09ddc34d]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user verify cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user creates a new user",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 17,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user verify cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then user verify cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user verify cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .Given user creates a new user(scenarios/suite2.bdd:4)\r\n\tat com.qmetry.qaf.automation.ws.rest.RestTestBase.getWebResource(RestTestBase.java:81)\r\n\tat com.qmetry.qaf.automation.ws.rest.RestTestBase.getWebResource(RestTestBase.java:76)\r\n\tat com.qmetry.qaf.automation.ws.rest.RestWSTestCase.getWebResource(RestWSTestCase.java:49)\r\n\tat com.steps.StepsBackLog.createUser_aroundBody10(StepsBackLog.java:94)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.steps.StepsBackLog.createUser(StepsBackLog.java:91)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

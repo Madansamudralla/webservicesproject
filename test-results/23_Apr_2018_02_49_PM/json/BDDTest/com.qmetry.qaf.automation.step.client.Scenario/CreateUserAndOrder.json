@@ -1,0 +1,143 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "createUser",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user add Product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "args": [
+        "[510a0d7e-8e83-4193-b483-e27e09ddc34d]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user verify cart",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user adds new shipping address 'Pune' 'India' '123456' '098765' 'long street'",
+      "args": [
+        "[Pune, India, 123456, 098765, long street]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then address is added successfully",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And user adds new payment details '1234567890987654' '01/28' '123'",
+      "args": [
+        "[1234567890987654, 01/28, 123]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When user places the order",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then verifies the placed order",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given user creates a new user",
+      "type": "TestStepFail",
+      "screenshot": "",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And user add Product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user verify cart",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user adds new shipping address 'Pune' 'India' '123456' '098765' 'long street'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then address is added successfully",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And user adds new payment details '1234567890987654' '01/28' '123'",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When user places the order",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then verifies the placed order",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat .Given user creates a new user(scenarios/suite2.bdd:16)\r\n\tat com.qmetry.qaf.automation.ws.rest.RestTestBase.getWebResource(RestTestBase.java:81)\r\n\tat com.qmetry.qaf.automation.ws.rest.RestTestBase.getWebResource(RestTestBase.java:76)\r\n\tat com.qmetry.qaf.automation.ws.rest.RestWSTestCase.getWebResource(RestWSTestCase.java:49)\r\n\tat com.steps.StepsBackLog.createUser_aroundBody10(StepsBackLog.java:94)\r\n\tat com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:101)\r\n\tat com.steps.StepsBackLog.createUser(StepsBackLog.java:91)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

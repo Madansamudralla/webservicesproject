@@ -1,0 +1,51 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524461208948,
+      "duration": 1355,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registeruserDfwQkJuGQl",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524468339928,
+      "duration": 647,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "groups": [],
+        "name": "registeruser",
+        "resultFileName": "registerusersDmHmjqjzC",
+        "sign": "WsregisterUser.registeruser()[pri:0, instance:com.webservicesproject.WsregisterUser@2a40cd94]"
+      },
+      "dependsOn": [],
+      "startTime": 1524471279309,
+      "duration": 648,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

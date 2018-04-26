@@ -1,0 +1,24 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "POST:http://10.12.40.220/register",
+      "args": [
+        "/register",
+        null
+      ],
+      "result": "POST http://10.12.40.220/register returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST http://10.12.40.220/register\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n200\nEtag: W/\"21-f2cdVj3lBnbxuR+J5+tOyOBefHY\"\nSet-Cookie: md.sid=s%3AprKjVyYCl2thfmkCoSh07NPkR0SGIs7j.4Qbdb7PYyxmiClNZkv3CPssNAWNsQ0JRafMjlq%2B8QA0; Path=/; HttpOnly\nSet-Cookie: logged_in=prKjVyYCl2thfmkCoSh07NPkR0SGIs7j; Max-Age=3600; Path=/; Expires=Fri, 20 Apr 2018 13:03:40 GMT\nSet-Cookie: _TRAEFIK_BACKEND=http://front-end:8079\nContent-Length: 33\nDate: Fri, 20 Apr 2018 12:03:40 GMT\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\"id\":\"5ad9d71cee11cb00014b259a\"}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": []
+}

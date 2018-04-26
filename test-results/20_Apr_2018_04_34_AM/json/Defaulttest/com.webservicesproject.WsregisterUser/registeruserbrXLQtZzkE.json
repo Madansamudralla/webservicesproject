@@ -1,0 +1,33 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "POST:http://10.12.40.220/register",
+      "args": [
+        "/register",
+        null
+      ],
+      "result": "POST http://10.12.40.220/register returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST http://10.12.40.220/register\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n200\nEtag: W/\"21-8NLzIIJ3T4kEJQY4ND6BmmN+ZZk\"\nSet-Cookie: md.sid=s%3A8s2IyUGpSTUfqf5rtc4lDUgzPzeWPvEg.g3Lr70Xrf0PatwY1cSEnRbIh1Y6v6ntLH1rSrWmwwR8; Path=/; HttpOnly\nSet-Cookie: logged_in=8s2IyUGpSTUfqf5rtc4lDUgzPzeWPvEg; Max-Age=3600; Path=/; Expires=Fri, 20 Apr 2018 13:49:37 GMT\nSet-Cookie: _TRAEFIK_BACKEND=http://front-end:8079\nContent-Length: 33\nDate: Fri, 20 Apr 2018 12:49:37 GMT\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\"id\":\"5ad9e1e1ee11cb00014b25bf\"}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: a value greater than &lt;9&gt;\n     Actual: &lt;24&gt; was greater than &lt;9&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

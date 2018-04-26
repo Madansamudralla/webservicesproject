@@ -1,0 +1,71 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "POST:http://10.12.40.220/register",
+      "args": [
+        "/register",
+        null
+      ],
+      "result": "POST http://10.12.40.220/register returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST http://10.12.40.220/register\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n200\nEtag: W/\"21-avTyNYGsfgUsgDefay/wLP6ez7Q\"\nSet-Cookie: md.sid=s%3A38g7oDDssbMg8s08MHojwf2WSqoOcTOF.zs8A0nKFprywRS%2FFWSdJnlbdFhwUBwUI3D3mwiJQpcY; Path=/; HttpOnly\nSet-Cookie: logged_in=38g7oDDssbMg8s08MHojwf2WSqoOcTOF; Max-Age=3600; Path=/; Expires=Mon, 23 Apr 2018 06:26:44 GMT\nSet-Cookie: _TRAEFIK_BACKEND=http://front-end:8079\nContent-Length: 33\nDate: Mon, 23 Apr 2018 05:26:44 GMT\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\"id\":\"5add6e94ee11cb00014b25e4\"}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "POST:http://10.12.40.220/cart",
+      "args": [
+        "/cart",
+        null
+      ],
+      "result": "POST http://10.12.40.220/cart returned a response status of 201 Created",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST http://10.12.40.220/cart\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n201\nSet-Cookie: md.sid=s%3A1yslE93NLvxfjAxrJclWjj2RmXB-Ytd8.O57mYghv0%2B%2F8HLwqOQQTHNSVvZq9SzUEHSucqg6QhdI; Path=/; HttpOnly\nSet-Cookie: _TRAEFIK_BACKEND=http://front-end:8079\nContent-Length: 0\nDate: Mon, 23 Apr 2018 05:26:44 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "GET:http://10.12.40.220/cart",
+      "args": [
+        "/cart",
+        null
+      ],
+      "result": "GET http://10.12.40.220/cart returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://10.12.40.220/cart\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n200\nSet-Cookie: md.sid=s%3ADjyiePqSTVNsOEc9VXT4YZodqQR90Jkv.5ZwoXtlLBscheHAjBVEN3MtWYE0jDtJIkw34gfBDyME; Path=/; HttpOnly\nSet-Cookie: _TRAEFIK_BACKEND=http://front-end:8079\nContent-Length: 2\nDate: Mon, 23 Apr 2018 05:26:45 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n[]\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: a value greater than &lt;6&gt;\n     Actual: &lt;24&gt; was greater than &lt;6&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

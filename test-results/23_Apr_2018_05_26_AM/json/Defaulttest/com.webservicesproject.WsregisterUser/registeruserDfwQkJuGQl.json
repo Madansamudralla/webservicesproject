@@ -1,0 +1,71 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "POST:http://10.12.40.220/register",
+      "args": [
+        "/register",
+        null
+      ],
+      "result": "POST http://10.12.40.220/register returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST http://10.12.40.220/register\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n200\nEtag: W/\"21-loeAPoTDdTrUFTwdd0hcwsirIgQ\"\nSet-Cookie: md.sid=s%3AlDCG0QrpFzLcMpxiEe2CI9jHxl75INI4.EPoAwWDXuky5bebeTCSuMuiwk1DfAc5G0TuuLmJCrD4; Path=/; HttpOnly\nSet-Cookie: logged_in=lDCG0QrpFzLcMpxiEe2CI9jHxl75INI4; Max-Age=3600; Path=/; Expires=Mon, 23 Apr 2018 08:25:35 GMT\nSet-Cookie: _TRAEFIK_BACKEND=http://front-end:8079\nContent-Length: 33\nDate: Mon, 23 Apr 2018 07:25:35 GMT\nX-Powered-By: Express\nContent-Type: application/json; charset=utf-8\n\n{\"id\":\"5add8a6fee11cb00014b2653\"}\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "POST:http://10.12.40.220/cart",
+      "args": [
+        "/cart",
+        null
+      ],
+      "result": "POST http://10.12.40.220/cart returned a response status of 201 Created",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nPOST http://10.12.40.220/cart\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n201\nContent-Length: 0\nDate: Mon, 23 Apr 2018 07:25:35 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "GET:http://10.12.40.220/cart",
+      "args": [
+        "/cart",
+        null
+      ],
+      "result": "GET http://10.12.40.220/cart returned a response status of 200 OK",
+      "subLogs": [
+        {
+          "args": [
+            "Client out-bound request\nGET http://10.12.40.220/cart\nContent-Type: application/json\n"
+          ],
+          "result": "Client in-bound response\n200\nContent-Length: 76\nDate: Mon, 23 Apr 2018 07:25:35 GMT\nContent-Type: text/plain; charset=utf-8\nX-Powered-By: Express\n\n[{\"id\":\"5add8a6f9194be0006c110dc\",\"itemId\":\"\",\"quantity\":1,\"unitPrice\":0.0}]\n",
+          "subLogs": [],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: a value greater than &lt;6&gt;\n     Actual: &lt;24&gt; was greater than &lt;6&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+14:50:11 scenario.file.loc[Ljava.lang.String;@1cab0bfb
+14:50:11 loading BDD file: scenarios/suite2.bdd
+14:50:11 total test found: 2
+14:50:12 
+
+Executing scenario: UpdateCartDetails - Update Items in cart
+14:50:12 pkg: com.qmetry.qaf.automation.step
+14:50:12 pkg: com.steps
+14:50:12 Found duplicate step to load [] with [lower] prority then []
+14:50:12 Invoking Teststep: Given user creates a new user
+14:50:13 Completed Teststep: Given user creates a new user
+14:50:13 Invoking Teststep: And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d' with arguments: [510a0d7e-8e83-4193-b483-e27e09ddc34d]
+14:50:13 Completed Teststep: And user add product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d' with arguments: [510a0d7e-8e83-4193-b483-e27e09ddc34d]
+14:50:13 Invoking Teststep: And user verify cart
+14:50:13 Completed Teststep: And user verify cart
+14:50:13 Invoking Teststep: When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d' with arguments: [5, 510a0d7e-8e83-4193-b483-e27e09ddc34d]
+14:50:13 Completed Teststep: When user updates the cart quantity by '5' for '510a0d7e-8e83-4193-b483-e27e09ddc34d' with arguments: [5, 510a0d7e-8e83-4193-b483-e27e09ddc34d]
+14:50:13 Invoking Teststep: Then user verify cart
+14:50:13 Completed Teststep: Then user verify cart
+14:50:13 Invoking Teststep: And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d' with arguments: [510a0d7e-8e83-4193-b483-e27e09ddc34d]
+14:50:13 Completed Teststep: And user deletes product '510a0d7e-8e83-4193-b483-e27e09ddc34d' with arguments: [510a0d7e-8e83-4193-b483-e27e09ddc34d]
+14:50:13 Invoking Teststep: And user verify cart
+14:50:13 Completed Teststep: And user verify cart
+14:50:13 Competed scenario: UpdateCartDetails with status SUCESS
+14:50:13 
+
+Executing scenario: CreateUserAndOrder - Create New user and Place Order using the same
+14:50:13 Invoking Teststep: Given user creates a new user
+14:50:13 Completed Teststep: Given user creates a new user
+14:50:13 Invoking Teststep: And user add Product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d' with arguments: [510a0d7e-8e83-4193-b483-e27e09ddc34d]
+14:50:13 Completed Teststep: And user add Product into cart '510a0d7e-8e83-4193-b483-e27e09ddc34d' with arguments: [510a0d7e-8e83-4193-b483-e27e09ddc34d]
+14:50:13 Invoking Teststep: And user verify cart
+14:50:13 Completed Teststep: And user verify cart
+14:50:13 Invoking Teststep: When user adds new shipping address 'Pune' 'India' '123456' '098765' 'long street' with arguments: [Pune, India, 123456, 098765, long street]
+14:50:13 Completed Teststep: When user adds new shipping address 'Pune' 'India' '123456' '098765' 'long street' with arguments: [Pune, India, 123456, 098765, long street]
+14:50:13 Invoking Teststep: Then address is added successfully
+14:50:13 Completed Teststep: Then address is added successfully
+14:50:13 Invoking Teststep: And user adds new payment details '1234567890987654' '01/28' '123' with arguments: [1234567890987654, 01/28, 123]
+14:50:14 Completed Teststep: And user adds new payment details '1234567890987654' '01/28' '123' with arguments: [1234567890987654, 01/28, 123]
+14:50:14 Invoking Teststep: When user places the order
+14:50:14 Completed Teststep: When user places the order
+14:50:14 Invoking Teststep: Then verifies the placed order
+14:50:14 Completed Teststep: Then verifies the placed order
+14:50:14 Competed scenario: CreateUserAndOrder with status SUCESS
